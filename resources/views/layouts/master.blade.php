@@ -16,6 +16,7 @@
 
     <link href="{{ asset('libs/slim/slim.css') }}" rel="stylesheet">
     <link href="{{ url('css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{asset('css/stylish-portfolio.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{asset('css/half-slider.css')}}" rel="stylesheet">
@@ -48,21 +49,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link js-scroll-trigger nav-link"  href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link js-scroll-trigger nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">{{'Login'}}</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    <a class="nav-link js-scroll-trigger nav-link" href="#contacts">Contact</a>
                 </li>
             </ul>
         </div>
@@ -88,6 +81,10 @@
 <!-- Bootstrap core JavaScript -->
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- Plugin JavaScript -->
+<script src="{{asset('vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+<script src="{{asset('js/stylish-portfolio.js')}}"></script>
+
 
 </body>
 

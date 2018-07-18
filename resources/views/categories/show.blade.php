@@ -27,25 +27,7 @@
                 <div class="col-lg-10">
                     <div class="row">
                         @isset($category_one->songs)
-                            @foreach($category_one->songs as $song)
-                                <div class="col-lg-3 py-3">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            {{ucwords($song->title)}}.
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Artist:{{ucwords($song->artist)}}</p>
-                                        </div>
-
-                                        <div class="card-footer">
-                                            <a href="{{ route('song.buy',$song->uuid) }}" class="btn btn-sm btn-secondary">
-                                                Buy
-                                            </a>
-                                            <b class="float-right">Price: ${{$song->price}}</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            @endforeach
+                            @each('songs.partials.songs',$category_one->songs,'song')
                         @endisset
 
                         @empty($category_one->songs)

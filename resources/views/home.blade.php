@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <h4 class="text-center text-muted">ADMIN DASHBOARD</h4>
                 </div>
             </div>
         </div>

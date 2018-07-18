@@ -16,15 +16,15 @@
                             {{--{{$errors}}--}}
 
                             {{--image_upload--}}
-                            <div class="slim"
-                                 data-label="Drop the song avatar here"
-                                 data-service=""
-                                 data-size="240,240"
-                                 data-push="true"
-                                 data-button-edit-label="false"
-                                 data-ratio="1:1">
-                                <input type="file" name="image"/>
-                            </div>
+                            {{--<div class="slim"--}}
+                                 {{--data-label="Drop the song avatar here"--}}
+                                 {{--data-service=""--}}
+                                 {{--data-size="240,240"--}}
+                                 {{--data-push="true"--}}
+                                 {{--data-button-edit-label="false"--}}
+                                 {{--data-ratio="1:1">--}}
+                                {{--<input type="file" name="image"/>--}}
+                            {{--</div>--}}
                             {{--image_upload--}}
 
                             {{--create song--}}

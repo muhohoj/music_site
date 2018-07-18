@@ -117,5 +117,6 @@
     <script src="{{ url('/libs/slim/slim.jquery.js') }}"></script>
     <script src="{{ url('/libs/slim/slim.global.js') }}"></script>
     <script src={{url("libs/slim/slim.kickstart.min.js")}}></script>
+
 </body>
 </html>
